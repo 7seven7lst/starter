@@ -1,3 +1,6 @@
 .DS_Store
 **/.DS_Store
 /node_modules
+
+./config/config.json  # each person's config will be different locally
+
