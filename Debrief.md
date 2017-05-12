@@ -9,5 +9,8 @@
 3. `sequelize db:migrate` will migrate all the migration 
 4. `sequelize db:migrate:undo` will revert ONLY the latest migration 
 
+## DB config file
+1. ./config is gitignored so you will need to create your own one. 
+
 
 
