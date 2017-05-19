@@ -1,0 +1,28 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Go to [Debrief.md](./Debrief.md) for steps to setup",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "babel-node server.js",
+    "client": "babel-node start-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7seven7lst/starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7seven7lst/starter/issues"
+  },
+  "homepage": "https://github.com/7seven7lst/starter#readme",
+  "devDependencies": {
+    "concurrently": "^3.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}

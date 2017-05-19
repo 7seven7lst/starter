@@ -10,7 +10,10 @@
 4. `sequelize db:migrate:undo` will revert ONLY the latest migration 
 
 ## DB config file
+
 1. ./config is gitignored so you will need to create your own one. 
 
+## If we want to use create-react-app
 
+1. `npm install create-react-app -g`
 
